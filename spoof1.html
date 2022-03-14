@@ -1,0 +1,11 @@
+
+<body>
+    <script>
+        window.onclick = () => {
+            x = window.open('http.://google.com')
+            setTimeout(() => {
+                x.document.write(`Hello Google.com! <button onclick="alert('I can run JS on this page!')">Click me!</button>`)
+            }, 1000)
+        }
+    </script>
+</body>
